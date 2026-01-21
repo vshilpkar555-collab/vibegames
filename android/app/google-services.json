@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "416188077938",
+    "project_id": "vibegames-f04d0",
+    "storage_bucket": "vibegames-f04d0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:416188077938:android:6e82d11beb2fb291732feb",
+        "android_client_info": {
+          "package_name": "com.creatixhub.vibegames"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATS5IufFVWQMuAoJZBjayOkQLbj1evsgw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

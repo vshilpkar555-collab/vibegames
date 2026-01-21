@@ -1,0 +1,167 @@
+{
+  "categories": [
+    {
+      "id": "c1",
+      "name": "Action",
+      "thumbnail": "assets/images/action.jpeg",
+      "color": "#8B0000"
+    },
+    {
+      "id": "c2",
+      "name": "Adventure",
+      "thumbnail": "assets/images/adventure.jpeg",
+      "color": "#006400"
+    },
+    {
+      "id": "c3",
+      "name": "Arcade",
+      "thumbnail": "assets/images/arcade.jpeg",
+      "color": "#FFD700"
+    },
+    {
+      "id": "c4",
+      "name": "Sports",
+      "thumbnail": "assets/images/sports.jpeg",
+      "color": "#532954"
+    },
+    {
+      "id": "c5",
+      "name": "Race",
+      "thumbnail": "assets/images/race.jpg",
+      "color": "#0000FF"
+    }
+  ],
+
+  "games": [
+    {
+      "id": "g1",
+      "name": "Bloxd.io",
+      "category_id": "c2",
+      "hashtags": ["Action", "Adventure"],
+      "thumbnail": "https://imgs.crazygames.com/bloxdhop-io_2x3/20250829023851/bloxdhop-io_2x3-cover?metadata=none&quality=85&width=675&fit=crop",
+      "video_url": "https://videos.crazygames.com/bloxdhop-io/8/bloxdhop-io-landscape-1920x1080_30fps.mp4",
+      "type": "web",
+      "web_url": "https://www.crazygames.com/game/bloxdhop-io",
+      "rotate": false
+    },
+    {
+      "id": "g2",
+      "name": "Fortzone Battle Royale",
+      "category_id": "c1",
+      "hashtags": ["Action", "Open World"],
+      "thumbnail": "https://imgs.crazygames.com/fortzone-battle-royale-xkd_16x9/20250513044222/fortzone-battle-royale-xkd_16x9-cover?metadata=none&quality=60&height=443",
+      "video_url": "https://videos.crazygames.com/fortzone-battle-royale-xkd/2/fortzone-battle-royale-xkd-landscape-1920x1080_30fps.mp4",
+      "type": "web",
+      "web_url": "https://www.crazygames.com/game/fortzone-battle-royale-xkd"
+    },
+    {
+      "id": "g3",
+      "name": "Paper.io",
+      "category_id": "c2",
+      "hashtags": ["Adventure", "Multiplayer"],
+      "thumbnail": "https://imgs.crazygames.com/paper-io-2_2x3/20250214024143/paper-io-2_2x3-cover?metadata=none&quality=60&width=216&height=120&fit=crop",
+      "video_url": "https://videos.crazygames.com/paper-io-2/2/paper-io-2-landscape-1920x1080_30fps.mp4",
+      "type": "web",
+      "web_url": "https://www.crazygames.com/game/paper-io-2"
+    },
+    {
+      "id": "g4",
+      "name": "Ragdoll Archers",
+      "category_id": "c3",
+      "hashtags": ["Arcade"],
+      "thumbnail": "https://imgs.crazygames.com/ragdoll-archers_16x9/20250926080758/ragdoll-archers_16x9-cover?metadata=none&quality=60&width=216&height=120&fit=crop",
+      "video_url": "https://videos.crazygames.com/ragdoll-archers/5/ragdoll-archers-landscape-1920x1080_30fps.mp4",
+      "type": "web",
+      "web_url": "https://www.crazygames.com/game/ragdoll-archers"
+    },
+    {
+      "id": "g5",
+      "name": "Sky Riders",
+      "category_id": "c2",
+      "hashtags": ["Action", "Race"],
+      "thumbnail": "https://imgs.crazygames.com/sky-riders-buk_2x3/20240206045724/sky-riders-buk_2x3-cover?metadata=none&quality=60&width=195",
+      "video_url": "https://videos.crazygames.com/sky-riders-buk/6/sky-riders-buk-portrait-283x420_30fps.mp4",
+      "type": "web",
+      "web_url": "https://www.crazygames.com/game/sky-riders-buk"
+    },
+    {
+      "id": "g6",
+      "name": "Piece of Cake: Merge and Bake",
+      "category_id": "c2",
+      "hashtags": ["Action", "Adventure"],
+      "thumbnail": "https://imgs.crazygames.com/piece-of-cake-merge-and-bake_16x9/20251121082142/piece-of-cake-merge-and-bake_16x9-cover?metadata=none&quality=100&width=480",
+      "video_url": "https://videos.crazygames.com/piece-of-cake-merge-and-bake/2/piece-of-cake-merge-and-bake-landscape-1920x1080_30fps.mp4",
+      "type": "web",
+      "web_url": "https://www.crazygames.com/game/piece-of-cake-merge-and-bake"
+    },
+    {
+      "id": "g7",
+      "name": "Space Waves",
+      "category_id": "c2",
+      "hashtags": ["Action"],
+      "thumbnail": "https://imgs.crazygames.com/space-waves_2x3/20241203031650/space-waves_2x3-cover?metadata=none&quality=100&width=480",
+      "video_url": "https://videos.crazygames.com/space-waves/5/space-waves-landscape-611x343_30fps.mp4",
+      "type": "web",
+      "web_url": "https://www.crazygames.com/game/space-waves"
+    },
+    {
+      "id": "g8",
+      "name": "Hero Squad Survival",
+      "category_id": "c2",
+      "hashtags": ["Action"],
+      "thumbnail": "https://imgs.crazygames.com/hero-squad-survival_16x9/20251112031143/hero-squad-survival_16x9-cover?metadata=none&quality=100&width=480",
+      "video_url": "https://videos.crazygames.com/hero-squad-survival/1/hero-squad-survival-landscape-611x343_30fps.mov",
+      "type": "web",
+      "web_url": "https://www.crazygames.com/game/hero-squad-survival"
+    },
+    {
+      "id": "g9",
+      "name": "Hotgear Qim",
+      "category_id": "c5",
+      "hashtags": ["Race"],
+      "thumbnail": "https://imgs.crazygames.com/hotgear-qim_2x3/20250902090508/hotgear-qim_2x3-cover?metadata=none&quality=100&width=480",
+      "video_url": "",
+      "type": "web",
+      "web_url": "https://www.crazygames.com/game/hotgear-qim"
+    },
+    {
+      "id": "g10",
+      "name": "Mega Ramp Car Stunt",
+      "category_id": "c5",
+      "hashtags": ["Race"],
+      "thumbnail": "https://imgs.crazygames.com/mega-ramp-car-stunt_2x3/20240115092432/mega-ramp-car-stunt_2x3-cover?metadata=none&quality=100&width=480&dpr=2",
+      "video_url": "",
+      "type": "web",
+      "web_url": "https://www.crazygames.com/game/mega-ramp-car-stunt"
+    },
+    {
+      "id": "g11",
+      "name": "Hazmob-FPS",
+      "category_id": "c5",
+      "hashtags": ["Race"],
+      "thumbnail": "https://imgs.crazygames.com/hazmob-fps-online-shooter_2x3/20240607181337/hazmob-fps-online-shooter_2x3-cover?metadata=none&quality=100&width=420",
+      "video_url": "https://videos.crazygames.com/hazmob-fps-online-shooter/9/hazmob-fps-online-shooter-portrait-720x1080_30fps.mp4",
+      "type": "web",
+      "web_url": "https://www.crazygames.com/game/mega-ramp-car-stunt"
+    }
+  ],
+
+  "blocks": {
+    "hero_slider": {
+      "type": "games",
+      "ids": ["g1", "g2","g3","g4","g8","g6"]
+    },
+    "popular_categories": {
+      "type": "categories",
+      "ids": ["c1","c2" ,"c3", "c4","c5"]
+    },
+    "popular_games": {
+      "type": "games",
+      "ids": ["g3", "g4", "g2","g1","g5","g6","g7","g8","g9","g10"]
+    },
+    "top10_games": {
+      "type": "games",
+      "ids": ["g3", "g4", "g2","g1","g9","g10","g5","g6","g7","g8"]
+    }
+  }
+}
