@@ -1,10 +1,9 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:vibegames/src/app/main.dart';
 import 'package:vibegames/src/features/home/data/played_game_storage.dart';
 import 'package:vibegames/src/features/home/presentation/home_controller.dart';
-import 'package:vibegames/src/features/home/presentation/widgets/GameRankCard.dart';
-import 'package:vibegames/src/features/home/presentation/widgets/HeroSliderItem.dart';
 import 'package:vibegames/src/features/home/presentation/widgets/custom_appbar.dart';
 import '../../../webview/webgame_page.dart';
 
@@ -18,16 +17,11 @@ class CategoryPage extends ConsumerStatefulWidget {
 }
 
 class _CategoryPageState extends ConsumerState<CategoryPage> {
-  int currentSlider = 0;
-
-  Color _colorFromHex(String hexColor) {
-    final hexCode = hexColor.replaceAll('#', '');
-    return Color(int.parse('FF$hexCode', radix: 16));
-  }
 
   @override
   Widget build(BuildContext context) {
     final homeState = ref.watch(homeControllerProvider);
+    final adService = ref.watch(adServiceProvider);
 
     return homeState.when(
       loading: () => const Center(child: CircularProgressIndicator()),
@@ -60,8 +54,8 @@ class _CategoryPageState extends ConsumerState<CategoryPage> {
                     final game = gameBlock[index];
                     return InkWell(
                       onTap: (){
+                        adService.showInterstitialAd();
                         PlayedGameStorage.savePlayedGame(game);
-
                         Navigator.push(
                           context,
                           MaterialPageRoute(
